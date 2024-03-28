@@ -1,0 +1,88 @@
+/* Estilos generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.divLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+label {
+    font-weight: bold;
+    margin: 8px 0 8px 0;
+}
+
+/* Estilos para el formulario de inicio de sesión */
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para los campos de texto del formulario */
+.loginForm input[type="text"],
+.loginForm input[type="password"] {
+    width: 400px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #999;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el botón de enviar del formulario */
+.loginForm input[type="submit"] {
+    width: 400px;
+    background-color: #dbdcdf;
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+}
+
+.tituloTabla {
+    text-align: center;
+}
+
+/* Estilos adicionales para la tabla */
+table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid #000000;
+    padding: 8px;
+    text-align: left;
+    font-weight: bolder;
+}
+th {
+    background-color: #fafafa;
+}
+
+.containerBusqueda {
+    margin: 20px 0 20px 0;
+    text-align: center; 
+}
+
+.containerBusqueda input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.containerBusqueda button {
+    padding: 5px 10px;
+}
+
+.desbloqueado {
+    background-color: #cef8c6; 
+}
+
+.bloqueado {
+    background-color: #fd9f8b; 
+}
+
